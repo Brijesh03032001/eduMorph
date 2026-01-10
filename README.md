@@ -1,6 +1,6 @@
 <div align="center">
 
-# Edumorph
+# 🎓 EduMorph
 
 ### Self-Improving Learning Intelligence Platform
 
@@ -9,28 +9,62 @@
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
 ![Azure](https://img.shields.io/badge/Azure-5%20Services-0078D4?style=flat-square&logo=microsoft-azure)
+![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=flat-square&logo=powerbi)
 ![Groq](https://img.shields.io/badge/Groq-Llama%203.3%2070B-orange?style=flat-square)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?style=flat-square&logo=vercel)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 <br/>
 
 ![Edumorph Cover](edumorph_cover.png)
 
-</div>
+<br/>
 
 ---
 
-## What is Edumorph?
+### 👤 Built by
 
-Edumorph is an AI-powered adaptive learning platform. A student pastes any concept or lecture text, and Edumorph instantly generates multiple teaching formats — analogies, step-by-step diagrams, explainer videos, and quizzes — tailored for how that concept is best understood.
+**Brijesh Kumar**
+📞 623-666-2665 · 📧 [bkumar25@asu.edu](mailto:bkumar25@asu.edu) · 💼 [linkedin.com/in/brijeshkumar03](https://linkedin.com/in/brijeshkumar03) · 🐙 [github.com/Brijesh03032001](https://github.com/Brijesh03032001) · 📍 Tempe, AZ · ✅ Open to CPT / OPT
 
-What makes Edumorph different from a content generator is the **feedback loop**. Every interaction a student has — a quiz score, a video pause, a "make it simpler" click — is captured as a telemetry event, streamed into an Azure data pipeline, and analyzed to detect where learners consistently struggle. Azure OpenAI then generates targeted adaptation strategies. The next learner gets a better, smarter explanation — without any manual instructor intervention.
+---
+
+</div>
+
+## 📌 Description
+
+**EduMorph** is a full-stack, cloud-native adaptive learning platform that combines **Generative AI**, **real-time big data pipelines**, and **interactive BI dashboards** to create a self-improving educational experience.
+
+A student pastes any concept or lecture text — EduMorph instantly generates multiple teaching formats (analogies, diagrams, explainer videos, quizzes) tailored to how that concept is best understood. Every interaction is captured as a telemetry event, streamed through an **Azure Event Hubs → Stream Analytics → Data Lake Gen2 → Synapse Analytics** pipeline, and visualized in **Power BI** dashboards. **Azure OpenAI (GPT-4o)** then analyzes the aggregated data to generate targeted adaptation strategies — so the next learner automatically gets a smarter, better-tuned explanation.
+
+**The system learns from learners. Teaching improves automatically. No instructor intervention required.**
+
+Key highlights:
+- 🔁 **Closed feedback loop** — student behavior drives content improvement in real time
+- 📊 **Power BI dashboards** — concept difficulty, format effectiveness, engagement trends visualized end-to-end
+- ☁️ **5 Azure services** — Event Hubs, Stream Analytics, Data Lake Gen2, Synapse Analytics, Azure OpenAI
+- ⚡ **Groq / Llama 3.3 70B** — sub-second multi-format content generation
+- 🏗️ **Production-grade DevOps** — CI/CD via Vercel, environment-based config, pnpm workspaces, TypeScript strict mode
+
+---
+
+## 🏷️ Topics
+
+`adaptive-learning` `edtech` `generative-ai` `llm` `groq` `llama` `azure` `azure-openai` `azure-event-hubs` `azure-stream-analytics` `azure-data-lake` `azure-synapse-analytics` `power-bi` `big-data` `real-time-analytics` `data-pipeline` `data-visualization` `nextjs` `typescript` `react` `tailwindcss` `zustand` `recharts` `vercel` `ci-cd` `devops` `cloud-native` `infrastructure-as-code` `event-driven-architecture` `telemetry` `student-analytics` `open-to-cpt` `open-to-opt`
+
+---
+
+## ❓ What is EduMorph?
+
+EduMorph is an AI-powered adaptive learning platform. A student pastes any concept or lecture text, and EduMorph instantly generates multiple teaching formats — analogies, step-by-step diagrams, explainer videos, and quizzes — tailored for how that concept is best understood.
+
+What makes EduMorph different from a content generator is the **feedback loop**. Every interaction a student has — a quiz score, a video pause, a "make it simpler" click — is captured as a telemetry event, streamed into an Azure data pipeline, and analyzed to detect where learners consistently struggle. Azure OpenAI then generates targeted adaptation strategies. The next learner gets a better, smarter explanation — without any manual instructor intervention.
 
 **The system learns from learners. Teaching improves automatically.**
 
 ---
 
-## The Problem
+## 🚨 The Problem
 
 Traditional digital learning platforms are static by design:
 
@@ -44,9 +78,9 @@ There is no system that closes the loop between **what students struggle with** 
 
 ---
 
-## How Edumorph Solves It
+## ✅ How EduMorph Solves It
 
-Edumorph is built around a closed feedback loop powered by Azure:
+EduMorph is built around a closed feedback loop powered by Azure:
 
 ```
 Input Concept
@@ -86,7 +120,7 @@ Content Generation (Groq / Llama 3.3 70B)
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ### Layers
 
@@ -98,8 +132,10 @@ Content Generation (Groq / Llama 3.3 70B)
 | Processing | Azure Stream Analytics | Enriches and routes events |
 | Storage | Azure Data Lake Gen2 | Petabyte-scale telemetry store, partitioned by date and concept |
 | Analytics | Azure Synapse Analytics | SQL queries on difficulty, engagement, and format effectiveness |
+| BI & Visualization | Power BI | Interactive dashboards connected to Synapse for stakeholder reporting |
 | Adaptation | Azure OpenAI (GPT-4o) | Generates teaching improvement strategies from analytics insights |
 | Content AI | Groq (Llama 3.3 70B) | Fast multi-format teaching content generation |
+| Deployment | Vercel + GitHub CI/CD | Automated build, preview, and production deployments |
 
 ### Azure Services Used
 
@@ -111,43 +147,81 @@ Content Generation (Groq / Llama 3.3 70B)
 
 ---
 
-## Key Features
+## 📊 Power BI & Big Data
+
+EduMorph is built with enterprise-grade data visualization and big data processing at its core:
+
+- **Power BI Dashboards** — connected directly to Azure Synapse Analytics via DirectQuery, providing live views of concept difficulty scores, format effectiveness rates, student engagement trends, and cohort-level performance comparisons
+- **Big Data Pipeline** — telemetry events flow through Event Hubs at 1000+ events/sec, processed by Stream Analytics, and stored in a partitioned Data Lake Gen2 — designed to scale to millions of learners
+- **Exportable Datasets** — CSV and JSON exports from `/api/export-data` feed directly into Power BI Desktop or any BI tool
+- **Synapse SQL Analytics** — pre-built queries for concept difficulty ranking, format effectiveness scoring, and engagement funnel analysis (see [`docs/synapse-queries.sql`](docs/synapse-queries.sql))
+- **Real-time Metrics** — in-app Recharts dashboards mirror the Power BI views for instant feedback without leaving the platform
+
+---
+
+## ⚙️ DevOps & Infrastructure
+
+| Practice | Implementation |
+|---|---|
+| CI/CD | Vercel Git integration — auto-deploy on every push to `main` |
+| Preview Environments | Vercel preview URLs on every pull request |
+| Environment Config | `.env.local` with strict separation of dev / prod secrets |
+| Package Management | pnpm workspaces for fast, deterministic installs |
+| Type Safety | TypeScript strict mode across all layers |
+| Schema Validation | Zod for all AI input/output contracts |
+| Linting | ESLint + Next.js recommended config |
+| Build Optimization | Next.js App Router with server components and edge-ready API routes |
+| Monitoring | Azure Monitor + custom telemetry health endpoint (`/api/telemetry`) |
+
+---
+
+## ✨ Key Features
 
 - **Multi-format generation** — one input, four teaching outputs (analogy, diagram, video, quiz)
 - **Real-time telemetry** — every interaction streamed to Azure in under 1 second
 - **Adaptive content** — AI-generated improvement strategies applied at regeneration time
+- **Power BI integration** — live dashboards connected to Synapse for deep learning analytics
 - **Learning analytics dashboard** — concept difficulty, format effectiveness, engagement trends
 - **Student progress tracking** — per-session performance and historical trends
-- **Exportable datasets** — CSV and JSON exports for Power BI integration
+- **Exportable datasets** — CSV and JSON exports for Power BI and external BI tools
 - **Gamification layer** — streaks, badges, and points to sustain engagement
+- **Big data ready** — pipeline designed to scale to millions of concurrent learners
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 - Next.js 14 (App Router)
 - React 18 · TypeScript · Tailwind CSS
 - Zustand (state management)
-- Recharts (analytics visualisation)
+- Recharts (in-app analytics visualisation)
 
 ### AI
 - Groq API — Llama 3.3 70B — primary content generation
 - Azure OpenAI — GPT-4o — adaptive teaching strategies
 - Zod — schema validation for all AI I/O
 
-### Cloud & Data
+### Cloud & Big Data
 - Azure Event Hubs · Azure Stream Analytics
 - Azure Data Lake Gen2 · Azure Synapse Analytics
 - Azure OpenAI Service
 
-### Infrastructure
-- Vercel (deployment)
+### Visualization & BI
+- Power BI (DirectQuery to Synapse)
+- Recharts (in-app dashboards)
+- CSV / JSON data exports
+
+### DevOps & Infrastructure
+- Vercel (CI/CD + deployment)
+- GitHub (version control + PR previews)
 - pnpm (package management)
+- ESLint · TypeScript strict mode
+- Azure Monitor (observability)
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -159,8 +233,8 @@ Content Generation (Groq / Llama 3.3 70B)
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/your-username/edumorph.git
-cd edumorph
+git clone https://github.com/Brijesh03032001/eduMorph.git
+cd eduMorph
 pnpm install
 ```
 
@@ -194,7 +268,7 @@ Check telemetry: [http://localhost:3000/api/telemetry](http://localhost:3000/api
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 edumorph/
@@ -209,14 +283,14 @@ edumorph/
 │       ├── telemetry/route.ts        # Event ingestion (Azure)
 │       ├── analytics/route.ts        # Analytics API
 │       ├── student-analytics/route.ts
-│       └── export-data/route.ts      # Dataset exports
+│       └── export-data/route.ts      # Dataset exports (Power BI ready)
 ├── components/
 │   ├── InputCard.tsx                 # Lecture input
 │   ├── ResultTabs.tsx                # Teaching format tabs
 │   ├── ExplainerVideo.tsx            # Video + engagement telemetry
 │   ├── QuizBlock.tsx                 # Quiz + score telemetry
 │   ├── FeedbackBlock.tsx             # Feedback + telemetry
-│   └── analytics/                   # Dashboard charts and widgets
+│   └── analytics/                   # Power BI-style dashboard charts
 ├── lib/
 │   ├── groq.ts                       # Groq API client
 │   ├── telemetry.ts                  # Event schema and batcher
@@ -228,12 +302,12 @@ edumorph/
     ├── AZURE_ARCHITECTURE.md         # Full Azure documentation
     ├── QUICK_START.md                # Step-by-step Azure setup
     ├── synapse-queries.sql           # Analytics SQL queries
-    └── POWERBI_SETUP.md             # BI dashboard setup
+    └── POWERBI_SETUP.md             # Power BI dashboard setup guide
 ```
 
 ---
 
-## API Reference
+## 📡 API Reference
 
 | Route | Method | Purpose |
 |---|---|---|
@@ -242,27 +316,33 @@ edumorph/
 | `/api/telemetry` | POST / GET | Ingest events / health check |
 | `/api/analytics` | GET | Retrieve aggregated learning analytics |
 | `/api/student-analytics` | GET | Per-student performance data |
-| `/api/export-data` | GET | Export datasets (CSV / JSON) |
+| `/api/export-data` | GET | Export datasets (CSV / JSON) for Power BI |
 
 ---
 
-## Documentation
+## 📚 Documentation
 
 | Document | Description |
 |---|---|
 | [Azure Architecture](docs/AZURE_ARCHITECTURE.md) | Complete technical architecture deep dive |
 | [Quick Start Guide](docs/QUICK_START.md) | Full Azure resource setup in 30 minutes |
 | [Synapse Queries](docs/synapse-queries.sql) | Analytics SQL for concept and engagement insights |
-| [Power BI Setup](docs/POWERBI_SETUP.md) | Connect Synapse data to BI dashboards |
+| [Power BI Setup](docs/POWERBI_SETUP.md) | Connect Synapse data to Power BI dashboards |
 
 ---
 
-## License
+## 📄 License
 
 MIT — see [LICENSE](LICENSE) for details.
 
 ---
 
 <div align="center">
-Built with Azure. Powered by learning data. Improved by every student.
+
+Built with Azure · Powered by big data · Visualized with Power BI · Improved by every student.
+
+<br/>
+
+**Brijesh Kumar** · 📞 623-666-2665 · 📧 [bkumar25@asu.edu](mailto:bkumar25@asu.edu) · [LinkedIn](https://linkedin.com/in/brijeshkumar03) · [GitHub](https://github.com/Brijesh03032001) · Tempe, AZ · Open to CPT / OPT
+
 </div>
