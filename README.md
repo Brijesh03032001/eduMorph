@@ -6,13 +6,13 @@
 
 > Every student who learns makes the next student's experience better — automatically.
 
-![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
-![Azure](https://img.shields.io/badge/Azure-5%20Services-0078D4?style=flat-square&logo=microsoft-azure)
-![Power BI](https://img.shields.io/badge/Power%20BI-DirectQuery-F2C811?style=flat-square&logo=powerbi)
-![Groq](https://img.shields.io/badge/Groq-Llama%203.3%2070B-orange?style=flat-square)
-![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?style=flat-square&logo=vercel)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0063B1?style=for-the-badge)
+![Synapse](https://img.shields.io/badge/Synapse-1A4F7A?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Power_BI-9C6F00?style=for-the-badge)
+![Groq Llama 3.3 70B](https://img.shields.io/badge/Groq_Llama_3.3_70B-B5490A?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Vercel-111111?style=for-the-badge&logo=vercel&logoColor=white)
 
 <br/>
 
